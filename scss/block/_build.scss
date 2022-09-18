@@ -1,0 +1,126 @@
+.build{
+  display: flex;
+  background: #012F34;
+&__about__box{
+  display: flex;
+}
+&__hr{
+  margin: 140px 0 0 165px; 
+  width: 50px;
+height: 4px;
+left: 165px;
+top: 840px;
+background: #F67E7E;
+}
+&__title__text{
+  margin: 54px 0 470px 165px;
+  width: 445px;
+height: 144px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+color: #ffff
+}
+&__title{
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #F67E7E;
+}
+&__about{
+  width: 445px;
+  height: 40px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+&__img{
+  margin: 25px 0 0 0 ;
+  width: 72px;
+height: 72px;
+left: 735px;
+top: 898px;
+}
+&__item{
+  margin: 198px 0 54px 0;
+}
+&__list{
+margin-left: 23px;
+}
+&__img__photo{
+  margin: 0 0 0 525px;
+  position: absolute;
+}
+}
+@media screen and (max-width:768px) {
+  .hr{
+    margin: 100px 0 0 98px; 
+    width: 50px;
+  height: 4px;
+  left: 165px;
+  top: 840px;
+  background: #F67E7E;
+  }
+  .build__title{
+    margin: 32px 0 0 98px;
+    width: 445px;
+  height: 64px;
+    font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #ffff
+  }
+  .build{
+    flex-direction: column;
+  }
+  .exp__title{
+    position: absolute;
+    font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+  }
+  .exp__about{
+    margin: 65px 0 0 0;
+    width: 478px;
+    height: 50px;
+    font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  }
+  .build__img{
+    margin: 20px 0 0 0;
+  }
+  .build__item{
+    margin: 64px 0 54px 52px;
+  }
+  .exp__list{
+  margin:0 0 22px  23px;
+  }
+  .build__img__1{
+    margin: 0 0 0 0px;
+  } 
+  .build__img__photo{
+    position: absolute;
+    top: 725px;
+    left: 658px;
+  }
+}

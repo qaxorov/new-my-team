@@ -1,0 +1,120 @@
+.delivering{
+  width: 100%;
+  background: #004047;
+&__title__tekst{
+margin-left: 200px;
+width: 932px;
+height: 96px;
+left: 254px;
+top: 1524px;
+
+font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+&__item{
+  display: flex;
+}
+&__box{
+ list-style-type: none;
+  text-align: center;
+}
+&__text{
+position:relative;
+  margin: 36px 0 0 33px;
+  width: 350px;
+  height: 100px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+&__text__title{
+  margin: 24px 0 2px 0;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+} 
+&__text__title__about{
+  margin: 0 0 32px 0;
+  font-family: 'Livvic';
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+&__img__radius_qiz{
+width: 62px;
+height: 62px;
+}
+&__img__radius_1{
+ margin: 51px 0 0 1100px;
+}
+&__img{
+  position: absolute;
+}
+}
+
+
+@media screen and (max-width:768px) {
+  .delivering__title{
+margin-left: 144px;
+width: 483px;
+height: 90px;
+font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+.delivering__item{
+  flex-direction: column;
+}
+.delivering__text{
+  position:relative;
+    margin: 36px 0 0 55px;
+    width: 573px;
+    height: 75px;
+    font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .delivering__box{
+    margin: 25px 0 0 0;
+    list-style-type: none;
+     text-align: center;
+   }
+   .delivering__img{
+    right: 335px;
+    position: absolute;
+  }
+  .delivering__text__title__about{
+    margin: 0 0 16px 0;
+    font-family: 'Livvic';
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .delivering__img__radius_1{
+  position:relative;
+    margin: 0 0 0 550px;
+   }
+}

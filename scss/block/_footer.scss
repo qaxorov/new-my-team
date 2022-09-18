@@ -1,0 +1,122 @@
+.footer{
+  background: #002529;
+  height: 196px;
+
+}
+.footer__list{
+  list-style-type: none;
+  display: flex;
+}
+.footer__logo{
+  margin: 0 0 0 0;
+}
+.footer__item{
+  margin: 48px 0 0 130px;
+}
+.footer__title__name{
+  padding-top: 25px;
+}
+.home{
+  margin-top: 6px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.footer__title__name{
+  margin: 0 40px 0 0;
+}
+.footer__code{
+  margin-top: 48px;
+  text-align: left;
+  list-style-type: none;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+.footer__code_1{
+  list-style-type: none;
+}
+.twitter{
+  list-style-type: none;
+display: flex;
+  margin: 48px 0 51px 450px;
+  gap: 16px;
+}
+.copyright{
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+text-align: right;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+@media screen and (max-width:768px) {
+  .footer{
+    width: 753px;
+    position: absolute;
+    background: #002529;
+    height: 310px;
+  }
+  .footer__list{
+    list-style-type: none;
+    display: flex;
+  }
+  .footer__logo{
+    margin: 0 0 53px 0;
+  }
+  .footer__item{
+    margin: 56px 0 0 39px;
+  }
+  .home{
+    display: flex;
+    margin:0 0 0 0;
+    font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  }
+  .footer__code{
+    text-align: right;
+    margin: 56px 0 0 120px;
+    list-style-type: none;
+    font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  }
+  .footer__code_1{
+    width: 280px;
+    height: 100px;
+    list-style-type: none;
+  }
+  .twitter{
+    top: 180px;
+    right: 1100px;
+    position: relative;
+    list-style-type: none;
+    gap: 16px;
+  }
+  .copyright{
+    text-align: right;
+    right: 69px;
+    top:220px;
+    position: absolute;
+  }
+}
